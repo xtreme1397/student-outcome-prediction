@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+ML_Assignment_2_AIML_26Oct26.pdf
+extra_test_data/
+.python-version
