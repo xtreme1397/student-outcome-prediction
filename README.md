@@ -36,7 +36,7 @@ Data comes from a Portuguese higher-education institution and covers students en
 
 **Repository:** https://github.com/xtreme1397/student-outcome-prediction
 
-**Live Streamlit app:** `<PASTE YOUR STREAMLIT APP URL HERE>`
+**Live Streamlit app:** https://student-outcome-prediction.streamlit.app
 
 ```
 student-outcome-prediction/
