@@ -89,6 +89,8 @@ Precision, Recall and F1 are **macro-averaged** over the three classes; AUC is *
 | Naive Bayes | 0.7096 | 0.8221 | 0.6526 | 0.6337 | 0.6404 | 0.5186 |
 | Support Vector Machine | **0.7921** | 0.8654 | **0.7553** | **0.7035** | **0.7160** | **0.6555** |
 
+> **Note:** When `train_models.py` was re-run on BITS Virtual Lab (Linux), every metric was identical except the Decision Tree AUC, which came out as **0.8599** instead of 0.8597. Decision trees can break ties between equally good splits differently across platforms, which slightly changes the predicted probabilities. The table above (and the deployed app) uses the committed models in `model/`.
+
 ### Observations on model performance
 
 | ML Model Name | Observation about model performance |
